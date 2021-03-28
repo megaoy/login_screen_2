@@ -1,5 +1,7 @@
 /* reset styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +9,7 @@
     text-decoration: none;
     font-family: sans-serif;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
 }
 
 body{
@@ -63,12 +65,13 @@ body{
     padding: 1rem 0;
 }
 .intro_card h1{
-    font-size: xx-large;
+    font-size: 3rem;
 
 }
 
 .intro_card h3{
     color: #E5F0DE;
+    
 }
 
 .chat_bot_continue{
@@ -78,6 +81,10 @@ body{
     flex-direction: column;
     width: 60%;
     padding-left: 6rem;
+    
+}
+
+.form_title{
     
 }
 
@@ -100,3 +107,7 @@ body{
     color: #E5F0DE;
 }
 
+.create_accont_link{
+    position: relative;
+    left: 70%;  
+}
