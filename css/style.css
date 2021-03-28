@@ -49,9 +49,9 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #051126;
+    background-color: #14161a;
     width: 40%;
-    color: azure;
+    color: #29b4ff;
     padding: 0 4rem;
 }
 
@@ -61,6 +61,14 @@ body{
 
 .intro_element{
     padding: 1rem 0;
+}
+.intro_card h1{
+    font-size: xx-large;
+
+}
+
+.intro_card h3{
+    color: #E5F0DE;
 }
 
 .chat_bot_continue{
@@ -72,3 +80,23 @@ body{
     padding-left: 6rem;
     
 }
+
+.input_group{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+    
+}
+.input_group input{
+    padding: 0 20rem 0 0 ;
+    margin: 1rem 0;
+}
+
+.input_btn{
+    background-color: #29b4ff;
+    padding: 1rem 2rem;
+    color: #E5F0DE;
+}
+
